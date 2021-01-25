@@ -35,19 +35,19 @@ export default {
       todoList: [
         {
           taskName: "Do laundry",
-          dueDate: "2020-11-06",
+          dueDate: "2021-02-01",
           isDone: false,
           isOverdue: false,
         },
         {
           taskName: "Register for the course",
-          dueDate: "2020-11-15",
+          dueDate: "2021-02-04",
           isDone: false,
           isOverdue: false,
         },
         {
           taskName: "Complete the course",
-          dueDate: "2020-11-22",
+          dueDate: "2021-02-17",
           isDone: false,
           isOverdue: false,
         },

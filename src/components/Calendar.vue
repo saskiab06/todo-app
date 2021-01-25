@@ -13,7 +13,7 @@
       </div>
       <div class="calendar__days">
         <span
-          v-for="day in 30"
+          v-for="day in 28"
           :key="'day' + day"
           :class="[
             {
@@ -87,9 +87,9 @@ export default {
   border: 2px solid #ddd;
 }
 
-.calendar__days > span:first-of-type {
+/* .calendar__days > span:first-of-type {
   margin-left: 85.875%;
-}
+} */
 
 .calendar__days .cal-has-task {
   border: 2px solid olivedrab;
