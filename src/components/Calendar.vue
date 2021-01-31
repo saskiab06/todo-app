@@ -1,6 +1,6 @@
 <template>
   <section class="calendar">
-    <h2>November 2020</h2>
+    <h2>February 2021</h2>
     <div class="calendar__content">
       <div class="calendar__weekdays">
         <span>Mon</span>

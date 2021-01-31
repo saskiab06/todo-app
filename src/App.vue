@@ -73,7 +73,8 @@ export default {
       let newTask = {};
       console.log(event);
       newTask.taskName = event.newTask;
-      newTask.dueDate = event.newTaskDate;
+      newTask.dueDate = event.newTaskDate || new Date().toISOString().substring(0,10);
+      console.log(newTask.dueDate)
       newTask.isDone = false;
       newTask.isOverdue =
         new Date(this.newTaskDate) < new Date() ? true : false;

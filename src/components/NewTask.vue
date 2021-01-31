@@ -64,7 +64,9 @@ export default {
   outline: 1px solid white;
 }
 
-input [type="text"]::placeholder {
-  color: #444;
+input::placeholder {
+  color: #aaa;
 }
+
+
 </style>
